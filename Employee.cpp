@@ -14,7 +14,7 @@ Employee::Employee( string firstname,
     m_jobTitle(jobTitle),
     m_hourly(hourly)
 {
-    cout << "Employing " << m_firstname << " at a rate of $" << m_salary << " per hour.\n";
+    cout << "Employing " << Person::m_firstname << " at a rate of $" << Employee::Salary() << " per year.\n";
 }
 
 Employee::~Employee()
